@@ -1,30 +1,20 @@
-const rp = require('request-promise');
-const fs = require('fs');
+import parseArgs from 'minimist'
 
-const api_key = "<EMPTY>"
+import { log } from './util.js'
+import { latest } from './marketdata_api.js'
+import { normalize } from './coin.js'
+import selectTopOfMarket from './select-top-of-market.js'
+import addChangesInHoldings from './add-changes-in-holdings.js'
 
-const requestOptions = {
-  method: 'GET',
-  uri: 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',
-  qs: {
-    'start': '1',
-    'limit': '5000',
-    'convert': 'USD'
-  },
-  headers: {
-    'X-CMC_PRO_API_KEY': api_key
-  },
-  json: true,
-  gzip: true
-};
+const argv = parseArgs(process.argv.slice(2))
 
-rp(requestOptions).then(response => {
-  console.log('API call response:', response[0]);
-  const data = JSON.stringify(response)
-  fs.writeFile ("./input.json", data, (err) => {
-    if (err) throw err;
-    console.log('complete');
-  });
-}).catch((err) => {
-  console.log('API call error:', err.message);
-});
+const baseCurrency = argv.currency || "USD"
+const cached = argv.cached || false
+
+Promise.resolve(cached)
+       .then(cached => latest(baseCurrency, cached))
+       .then(obj => obj.data)
+       .then(data => data.map(coin => normalize(baseCurrency, coin)))
+       .then(selectTopOfMarket)
+       .then(addChangesInHoldings)
+       .then(log)
