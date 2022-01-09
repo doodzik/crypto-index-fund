@@ -77,7 +77,7 @@ defaults to 1000.0
 base currency for all conversions 
 defaults to USD 
 
-####--holdings=PATH
+#### --holdings=PATH
 add a path to a holdings file in the format that can be seen in `test/holdings.json` file. 
 Defaults to empty 
 
