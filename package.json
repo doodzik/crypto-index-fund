@@ -1,14 +1,18 @@
 {
-  "name": "crypto-fund",
+  "name": "crypto-index-fund",
   "version": "1.0.0",
   "description": "",
-  "main": "crypto-fund.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "src/crypto-index-fund.js",
+  "bin": {
+    "allocate-crypto": "src/crypto-index-fund.js"
   },
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "test": "diff <(cat .test/test_result.json) <(node src/crypto-index-fund.js --cached --no-colors)"
+  },
+  "author": "Frederik Dudzik",
+  "license": "MIT",
   "dependencies": {
+    "currency.js": "^2.0.4",
     "minimist": "^1.2.5",
     "request-promise": "^4.2.6"
   },
