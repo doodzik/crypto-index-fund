@@ -7,7 +7,7 @@
     "allocate-crypto": "src/crypto-index-fund.js"
   },
   "scripts": {
-    "test": "diff <(cat .test/test_result.json) <(node src/crypto-index-fund.js --cached --no-colors)"
+    "test": "./test/test.sh"
   },
   "author": "Frederik Dudzik",
   "license": "MIT",

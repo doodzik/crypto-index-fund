@@ -26,3 +26,14 @@ export default (obj) => {
 
     return obj
 }
+
+export const marshal = (strategy, marshalCoin) => {
+  return (result) => { 
+    return { 
+      dominance: result.totalDominance.format(),
+      meta: { ...strategy.marshal(result), strategyID: strategy.id },
+      entriesCount: result.entries.length,
+      entries: result.entries.map(marshalCoin),
+    }
+  } 
+}

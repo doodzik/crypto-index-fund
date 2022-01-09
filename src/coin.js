@@ -17,3 +17,19 @@ export const normalize = (baseCurrency, coin) => {
 export const isTrueCrypto = (coin) => {
   return !stablecoins.includes(coin.symbol)
 }
+
+export const marshal = (coin) => {
+    return {
+      dominance: coin.dominance.format(),
+      symbol: coin.symbol,
+      name: coin.name,
+      baseCurrency: coin.baseCurrency,
+      price: coin.price.format(),
+      distribution: coin.distribution.format(),
+      amountBaseCurrency: coin.amountBaseCurrency.format(),
+      amount: coin.amount.format(),
+      currentHolding: coin.currentHolding.format(),
+      changeNominal: coin.changeNominal.format(),
+      changeBaseCurrency: coin.changeBaseCurrency.format(),
+    }
+}

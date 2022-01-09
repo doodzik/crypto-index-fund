@@ -1,7 +1,7 @@
 {
-  dominance: '80.30%',
-  thresholdDominance: 80,
-  entriesCount: 23,
+  dominance: '73.88%',
+  meta: { counter: 10, strategyID: 'TOP_10_COINS' },
+  entriesCount: 10,
   entries: [
     {
       dominance: '40.49%',
@@ -9,12 +9,12 @@
       name: 'Bitcoin',
       baseCurrency: 'USD',
       price: '$42,012.5114754317',
-      distribution: '50.42%',
-      amountBaseCurrency: '$504.2000000000',
-      amount: '₿0.012001186843944066',
+      distribution: '54.81%',
+      amountBaseCurrency: '$548.1000000000',
+      amount: '₿0.013046113663557603',
       currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿0.012001186843944066',
-      changeBaseCurrency: '$504.2000000000'
+      changeNominal: '₿0.013046113663557603',
+      changeBaseCurrency: '$548.1000000000'
     },
     {
       dominance: '19.1%',
@@ -22,12 +22,12 @@
       name: 'Ethereum',
       baseCurrency: 'USD',
       price: '$3,134.3034118586',
-      distribution: '23.67%',
-      amountBaseCurrency: '$236.7000000000',
-      amount: '₿0.075519172491229900',
+      distribution: '25.73%',
+      amountBaseCurrency: '$257.3000000000',
+      amount: '₿0.082091605754091482',
       currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿0.075519172491229900',
-      changeBaseCurrency: '$236.7000000000'
+      changeNominal: '₿0.082091605754091482',
+      changeBaseCurrency: '$257.3000000000'
     },
     {
       dominance: '3.69%',
@@ -35,12 +35,12 @@
       name: 'Binance Coin',
       baseCurrency: 'USD',
       price: '$434.4789371693',
-      distribution: '4.60%',
-      amountBaseCurrency: '$46.0000000000',
-      amount: '₿0.105873947077152641',
+      distribution: '4.99%',
+      amountBaseCurrency: '$49.9000000000',
+      amount: '₿0.114850216503259078',
       currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿0.105873947077152641',
-      changeBaseCurrency: '$46.0000000000'
+      changeNominal: '₿0.114850216503259078',
+      changeBaseCurrency: '$49.9000000000'
     },
     {
       dominance: '2.27%',
@@ -48,12 +48,12 @@
       name: 'Solana',
       baseCurrency: 'USD',
       price: '$143.4446396576',
-      distribution: '2.83%',
-      amountBaseCurrency: '$28.3000000000',
-      amount: '₿0.197288654825664045',
+      distribution: '3.7%',
+      amountBaseCurrency: '$30.7000000000',
+      amount: '₿0.214019848167769783',
       currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿0.197288654825664045',
-      changeBaseCurrency: '$28.3000000000'
+      changeNominal: '₿0.214019848167769783',
+      changeBaseCurrency: '$30.7000000000'
     },
     {
       dominance: '2.2%',
@@ -61,12 +61,12 @@
       name: 'Cardano',
       baseCurrency: 'USD',
       price: '$1.1862596272',
-      distribution: '2.52%',
-      amountBaseCurrency: '$25.2000000000',
-      amount: '₿21.243241717229370380',
+      distribution: '2.73%',
+      amountBaseCurrency: '$27.3000000000',
+      amount: '₿23.013511860331817616',
       currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿21.243241717229370380',
-      changeBaseCurrency: '$25.2000000000'
+      changeNominal: '₿23.013511860331817616',
+      changeBaseCurrency: '$27.3000000000'
     },
     {
       dominance: '1.83%',
@@ -74,12 +74,12 @@
       name: 'XRP',
       baseCurrency: 'USD',
       price: '$0.7545488575',
-      distribution: '2.28%',
-      amountBaseCurrency: '$22.8000000000',
-      amount: '₿30.216731194242118619',
+      distribution: '2.48%',
+      amountBaseCurrency: '$24.8000000000',
+      amount: '₿32.867321649877389689',
       currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿30.216731194242118619',
-      changeBaseCurrency: '$22.8000000000'
+      changeNominal: '₿32.867321649877389689',
+      changeBaseCurrency: '$24.8000000000'
     },
     {
       dominance: '1.25%',
@@ -87,12 +87,12 @@
       name: 'Terra',
       baseCurrency: 'USD',
       price: '$68.3682785536',
-      distribution: '1.56%',
-      amountBaseCurrency: '$15.6000000000',
-      amount: '₿0.228175995213478505',
+      distribution: '1.69%',
+      amountBaseCurrency: '$16.9000000000',
+      amount: '₿0.247190661481268364',
       currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿0.228175995213478505',
-      changeBaseCurrency: '$15.6000000000'
+      changeNominal: '₿0.247190661481268364',
+      changeBaseCurrency: '$16.9000000000'
     },
     {
       dominance: '1.22%',
@@ -100,12 +100,12 @@
       name: 'Polkadot',
       baseCurrency: 'USD',
       price: '$24.3088669874',
-      distribution: '1.52%',
-      amountBaseCurrency: '$15.2000000000',
-      amount: '₿0.625286238469222266',
+      distribution: '1.65%',
+      amountBaseCurrency: '$16.5000000000',
+      amount: '₿0.678764666759353097',
       currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿0.625286238469222266',
-      changeBaseCurrency: '$15.2000000000'
+      changeNominal: '₿0.678764666759353097',
+      changeBaseCurrency: '$16.5000000000'
     },
     {
       dominance: '1.7%',
@@ -113,12 +113,12 @@
       name: 'Avalanche',
       baseCurrency: 'USD',
       price: '$85.9444607570',
-      distribution: '1.33%',
-      amountBaseCurrency: '$13.3000000000',
-      amount: '₿0.154751101849420147',
+      distribution: '1.45%',
+      amountBaseCurrency: '$14.5000000000',
+      amount: '₿0.168713607279443040',
       currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿0.154751101849420147',
-      changeBaseCurrency: '$13.3000000000'
+      changeNominal: '₿0.168713607279443040',
+      changeBaseCurrency: '$14.5000000000'
     },
     {
       dominance: '1.3%',
@@ -126,181 +126,12 @@
       name: 'Dogecoin',
       baseCurrency: 'USD',
       price: '$0.1526066706',
-      distribution: '1.28%',
-      amountBaseCurrency: '$12.8000000000',
-      amount: '₿83.875756870093198359',
+      distribution: '1.39%',
+      amountBaseCurrency: '$13.9000000000',
+      amount: '₿91.083829726116846359',
       currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿83.875756870093198359',
-      changeBaseCurrency: '$12.8000000000'
-    },
-    {
-      dominance: '0.79%',
-      symbol: 'SHIB',
-      name: 'Shiba Inu',
-      baseCurrency: 'USD',
-      price: '$0.0000281759',
-      distribution: '0.98%',
-      amountBaseCurrency: '$9.8000000000',
-      amount: '₿347,814.976628963078837842',
-      currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿347,814.976628963078837842',
-      changeBaseCurrency: '$9.8000000000'
-    },
-    {
-      dominance: '0.74%',
-      symbol: 'MATIC',
-      name: 'Polygon',
-      baseCurrency: 'USD',
-      price: '$2.0220037886',
-      distribution: '0.92%',
-      amountBaseCurrency: '$9.2000000000',
-      amount: '₿4.549942018837619173',
-      currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿4.549942018837619173',
-      changeBaseCurrency: '$9.2000000000'
-    },
-    {
-      dominance: '0.65%',
-      symbol: 'LINK',
-      name: 'Chainlink',
-      baseCurrency: 'USD',
-      price: '$27.1536536386',
-      distribution: '0.81%',
-      amountBaseCurrency: '$8.1000000000',
-      amount: '₿0.298302398189447593',
-      currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿0.298302398189447593',
-      changeBaseCurrency: '$8.1000000000'
-    },
-    {
-      dominance: '0.59%',
-      symbol: 'CRO',
-      name: 'Crypto.com Coin',
-      baseCurrency: 'USD',
-      price: '$0.4605007581',
-      distribution: '0.73%',
-      amountBaseCurrency: '$7.3000000000',
-      amount: '₿15.852308322182542710',
-      currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿15.852308322182542710',
-      changeBaseCurrency: '$7.3000000000'
-    },
-    {
-      dominance: '0.49%',
-      symbol: 'UNI',
-      name: 'Uniswap',
-      baseCurrency: 'USD',
-      price: '$15.2262185591',
-      distribution: '0.61%',
-      amountBaseCurrency: '$6.1000000000',
-      amount: '₿0.400624749757996501',
-      currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿0.400624749757996501',
-      changeBaseCurrency: '$6.1000000000'
-    },
-    {
-      dominance: '0.47%',
-      symbol: 'ALGO',
-      name: 'Algorand',
-      baseCurrency: 'USD',
-      price: '$1.4235700859',
-      distribution: '0.59%',
-      amountBaseCurrency: '$5.9000000000',
-      amount: '₿4.144509679177433625',
-      currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿4.144509679177433625',
-      changeBaseCurrency: '$5.9000000000'
-    },
-    {
-      dominance: '0.46%',
-      symbol: 'LTC',
-      name: 'Litecoin',
-      baseCurrency: 'USD',
-      price: '$131.1176435135',
-      distribution: '0.57%',
-      amountBaseCurrency: '$5.7000000000',
-      amount: '₿0.043472410327547728',
-      currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿0.043472410327547728',
-      changeBaseCurrency: '$5.7000000000'
-    },
-    {
-      dominance: '0.43%',
-      symbol: 'ATOM',
-      name: 'Cosmos',
-      baseCurrency: 'USD',
-      price: '$37.5337935527',
-      distribution: '0.54%',
-      amountBaseCurrency: '$5.4000000000',
-      amount: '₿0.143870349593574476',
-      currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿0.143870349593574476',
-      changeBaseCurrency: '$5.4000000000'
-    },
-    {
-      dominance: '0.42%',
-      symbol: 'NEAR',
-      name: 'NEAR Protocol',
-      baseCurrency: 'USD',
-      price: '$13.7728001083',
-      distribution: '0.52%',
-      amountBaseCurrency: '$5.2000000000',
-      amount: '₿0.377555759112940814',
-      currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿0.377555759112940814',
-      changeBaseCurrency: '$5.2000000000'
-    },
-    {
-      dominance: '0.37%',
-      symbol: 'BCH',
-      name: 'Bitcoin Cash',
-      baseCurrency: 'USD',
-      price: '$378.5651387500',
-      distribution: '0.46%',
-      amountBaseCurrency: '$4.6000000000',
-      amount: '₿0.012151145282919952',
-      currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿0.012151145282919952',
-      changeBaseCurrency: '$4.6000000000'
-    },
-    {
-      dominance: '0.34%',
-      symbol: 'ICP',
-      name: 'Internet Computer',
-      baseCurrency: 'USD',
-      price: '$35.1021222004',
-      distribution: '0.42%',
-      amountBaseCurrency: '$4.2000000000',
-      amount: '₿0.119650885380147759',
-      currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿0.119650885380147759',
-      changeBaseCurrency: '$4.2000000000'
-    },
-    {
-      dominance: '0.34%',
-      symbol: 'TRX',
-      name: 'TRON',
-      baseCurrency: 'USD',
-      price: '$0.0660150890',
-      distribution: '0.42%',
-      amountBaseCurrency: '$4.2000000000',
-      amount: '₿63.621818339137590215',
-      currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿63.621818339137590215',
-      changeBaseCurrency: '$4.2000000000'
-    },
-    {
-      dominance: '0.33%',
-      symbol: 'XLM',
-      name: 'Stellar',
-      baseCurrency: 'USD',
-      price: '$0.2588501283',
-      distribution: '0.41%',
-      amountBaseCurrency: '$4.1000000000',
-      amount: '₿15.839281312807447222',
-      currentHolding: '₿0.000000000000000000',
-      changeNominal: '₿15.839281312807447222',
-      changeBaseCurrency: '$4.1000000000'
+      changeNominal: '₿91.083829726116846359',
+      changeBaseCurrency: '$13.9000000000'
     }
   ]
 }

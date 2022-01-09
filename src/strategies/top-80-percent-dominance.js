@@ -1,5 +1,5 @@
-import { percentage, basisPoint } from './currency.js'
-import { isTrueCrypto } from './coin.js'
+import { percentage, basisPoint } from '../currency.js'
+import { isTrueCrypto } from '../coin.js'
 
 export default (data) => {
   var totalDominance = percentage(0.0)
@@ -26,3 +26,11 @@ export default (data) => {
 
   return { totalDominance, thresholdDominance, entries }
 }
+
+export const marshalMeta = (result) => {
+  return {
+    thresholdDominance: result.thresholdDominance,
+  }
+}
+
+export const id = 'TOP_80_PERCENT_DOMINANCE'
