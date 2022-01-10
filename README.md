@@ -10,6 +10,8 @@ This repository contains a CLI tool for building your own crypto fund.  It suppo
 
 Happy to add other allocation types as well.
 
+If you want to stay up to date with announcements please consider [following me on twitter](https://twitter.com/dudzik_eth).
+
 ## Installation
 
 Clone the repository and `cd` into it.
