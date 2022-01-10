@@ -1,6 +1,6 @@
 # crypto-index-fund
 
-I was curious if I could build a crypto fund for myself. And it looks like I can. Currently, 80% of the ex-stablecoin crypto market consists of 21 cryptocurrencies. There's few enough that makes it possible for one person to buy some in each. Alternatively, one could pick the top 10 crypto currencies, which would make the allocation possible with fewer funds.
+I was curious if I could build a crypto fund for myself. And it looks like I can. Currently, 80% of the ex-stablecoin crypto market consists of 21 cryptocurrencies. There's few enough that it's possible for one person to buy some of each. Alternatively, one could pick the top 10 crypto currencies, which makes allocation possible with fewer funds.
 
 ![example allocation](./data/80ex-stable-example.png)
 
@@ -8,9 +8,9 @@ This repository contains a CLI tool for building your own crypto fund.  It suppo
 - Market Dominance Top 10 Coins ex-Stablecoin
 - Market Dominance 80% ex-Stablecoin
 
-Happy to add other allocation types as well.
+Happy to add other allocation strategies as well.
 
-If you want to stay up to date with announcements please consider [following me on twitter](https://twitter.com/dudzik_eth).
+If you like this type of project consider [following me on twitter](https://twitter.com/dudzik_eth) to see what else I'm building.
 
 ## Installation
 
