@@ -19,6 +19,7 @@ Clone the repository and `cd` into it.
 ```bash
 $ git clone https://github.com/doodzik/crypto-index-fund
 $ cd $_
+$ npm install
 ```
 
 ## Usage
