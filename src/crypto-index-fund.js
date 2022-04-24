@@ -13,7 +13,7 @@ const argv = parseArgs(process.argv.slice(2))
 
 const baseCurrency = argv.currency || "USD"
 const cache = argv.cache || false
-const funds = argv.funds === undefined ? 1000.0 : argv.funds
+const funds = argv.funds === undefined ? 0.0 : argv.funds
 const holdings = argv.holdings || false 
 const colors = argv.colors === undefined ? true : argv.colors
 const strategy = argv.strategy

@@ -74,7 +74,7 @@ strategies:
 
 #### --funds=DECIMAL 
 specify funds to allocate to the fund
-defaults to 1000.0
+defaults to 0.0
 
 #### --currency=STRING 
 base currency for all conversions 
